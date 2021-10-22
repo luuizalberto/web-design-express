@@ -152,6 +152,7 @@ section.sobre-equipe{
 
 section.sobre-equipe > .container{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .equipe-container{
@@ -168,6 +169,37 @@ section.sobre-equipe > .container{
     margin-top: 10px;
 }
 
+.avatar-box{
+    margin-top: 15px;
+}
+
+.img-avatar{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-position: center;
+}
+
+.descricao-avatar{
+    padding: 0 10px;
+    display: inline-block;
+    width: calc(100% - 70px);
+}
+
+.descricao-avatar h3{
+    color: rgb(30, 30, 30);
+    font-weight: normal;
+    font-style: italic;
+}
+
+.descricao-avatar p{
+    color: rgb(30, 30, 30);
+    font-weight: lighter;
+}
+
 
 
 
@@ -177,6 +209,15 @@ section.sobre-equipe > .container{
 @media screen and (max-width: 768px){
     .box-icone-single{
         width: 100%;
+    }
+
+    .equipe-container{
+        width: 100%;
+    }
+    
+    .sobre-container{
+        width: 100%;
+        margin-top: 60px;
     }
 }
 
