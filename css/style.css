@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
 }
 
 html, body{
@@ -171,7 +172,8 @@ section.sobre-equipe > .container{
 }
 
 .sobre-container p{
-    color: black; 
+    /* color: black; */
+    color: rgb(85, 85, 85); 
     font-size: 15px;
     margin-top: 10px;
 }
