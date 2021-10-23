@@ -16,6 +16,13 @@ html, body{
     padding: 0 2%;
 }
 
+.w50{
+    width: 50%;
+    float: left;
+}
+
+.center{text-align: center;}
+
 .clear{clear: both;}
 
 /* Classes do meu site */
@@ -200,13 +207,43 @@ section.sobre-equipe > .container{
     font-weight: lighter;
 }
 
+/* Sessão da inscrição */
+section.inscricao{
+    background-color: #52aaa7;
+    padding: 20px 0;
+}
 
+.inscricao-form input[type=text]{
+    width: calc(100% - 120px);
+    height: 40px;
+    background-color: white;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+h2.inscricao-texto{
+    font-weight: normal;
+    color: white;
+}
+
+.inscricao-form input[type=submit]{
+    width: 120px;
+    height: 40px;
+    background-color: #1d6c64;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    display: inline-block;
+    cursor: pointer;
+}
 
 
 
 
 
 @media screen and (max-width: 768px){
+    .w50{width: 100%; margin-bottom: 20px;}
+
     .box-icone-single{
         width: 100%;
     }
