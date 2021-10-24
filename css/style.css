@@ -22,6 +22,11 @@ html, body{
     float: left;
 }
 
+.w33{
+    width: 33.3%;
+    float: left;
+}
+
 .center{text-align: center;}
 
 .clear{clear: both;}
@@ -270,6 +275,35 @@ section.cards{
     padding-bottom: 20px;
 }
 
+/* FOOTER */
+footer.footer1{
+    background-color: #52aaa7;
+    padding: 20px 0;
+    color: white;
+}
+
+footer.footer1 h2{
+    font-size: 23px;
+    font-weight: normal;
+}
+
+footer.footer1 p{
+    margin-top: 8px;
+    font-weight: lighter;
+}
+
+footer.footer1 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 8px;
+}
+
+footer.footer1 .groud-icons a{
+    font-size: 18px;
+    display: inline-block;
+    margin: 15px 10px; /* eu defini */
+}
 
 
 
