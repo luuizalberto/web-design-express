@@ -310,7 +310,9 @@ footer.footer1 .groud-icons a{
 
 @media screen and (max-width: 768px){
     .card-single{width: 100%;}
-    .w50{width: 100%; margin-bottom: 20px;}
+    .w50, .w33{width: 100%; margin-bottom: 20px;}
+
+    footer.footer1{text-align: center;}
 
     .box-icone-single{
         width: 100%;
