@@ -305,6 +305,12 @@ footer.footer1 .groud-icons a{
     margin: 15px 10px; /* eu defini */
 }
 
+footer.footer2{
+    background-color: #237a70;
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+}
 
 
 
