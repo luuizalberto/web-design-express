@@ -28,6 +28,15 @@
                     <li><a href="">Contato</a></li>
                 </ul>
             </nav>
+
+            <nav class="menu-mobile">
+                <h2><i class="fas fa-bars"></i></h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="selected"><a href="sobre.html">Sobre</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav><!--menu-mobile-->
             <div class="clear"></div>
         </div><!--container-->
     </header>
@@ -65,6 +74,13 @@
     <footer class="footer2">
         <p>© Todos os direitos reservados</p>
     </footer>
+
+    <script src="js/jquery.js"></script>
+    <script>
+        $('nav.menu-mobile h2').click(function(){
+            $('nav.menu-mobile ul').slideToggle();
+        });
+    </script>
     
 </body>
 </html>
