@@ -413,6 +413,31 @@ section.sobre__noticia{
     font-weight: lighter;
 }
 
+/* Sessão do efeito Parallax */
+section.parallax{
+    padding: 30px 0;
+    width: 100%;
+    min-height: 200px;
+    background-image: url('../images/img-parallax.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    background-attachment: fixed;
+    text-align: center;
+}
+
+section.parallax h2{
+    border: 1px solid #44D4C5;
+    padding: 5px 25px;
+    color: #44D4C5;
+    font-size: 18px;
+    display: inline-block;
+}
+
+section.parallax p{
+    color: white;
+    margin-top: 10px;
+}
+
 
 
 @media screen and (max-width: 768px){
