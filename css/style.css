@@ -457,6 +457,13 @@ section.equipe{
     padding: 0 20px;
 }
 
+.avatar-single{
+    position: relative;
+    width: 100%;
+    padding-top: 100%; /* serve para = a minha altera será igual a minha largura */
+    background-color: aqua;
+}
+
 
 
 @media screen and (max-width: 768px){
