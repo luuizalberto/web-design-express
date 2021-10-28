@@ -460,6 +460,12 @@ section.equipe{
 
 .equipe-circle-single h3{
     margin-top: 8px;
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.equipe-circle-single p{
+    font-weight: lighter;
 }
 
 .avatar-single{
