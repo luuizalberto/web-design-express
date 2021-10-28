@@ -449,8 +449,12 @@ section.equipe{
 }
 
 .equipe-circles{
-    margin-top: 20px;
+    margin-top: 50px;
     display: flex;
+}
+
+.equipe-circle-single{
+    padding: 0 20px;
 }
 
 
