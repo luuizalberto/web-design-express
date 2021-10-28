@@ -490,6 +490,38 @@ section.equipe{
     background-position: center;
 }
 
+/* Sessão do Sobre Final */
+section.sobre__final{
+    background-color: aliceblue;
+    border-top: 2px solid rgb(224, 224, 224);
+    padding: 20px 0;
+}
+
+section.sobre__final p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.card-text{
+    margin-top: 10px;
+    width: 80%;
+    position: relative;
+}
+
+.card-text img{
+    max-width: 100%;
+}
+
+.card-text h3{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+}
+
 
 
 @media screen and (max-width: 768px){
@@ -537,5 +569,8 @@ section.equipe{
         width: 100%;
         margin-bottom: 30px;
     }
+
+    .card-text{width: 100%;}
+
 }
 
