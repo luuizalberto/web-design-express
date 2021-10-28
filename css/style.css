@@ -454,14 +454,29 @@ section.equipe{
 }
 
 .equipe-circle-single{
+    text-align: center;
     padding: 0 20px;
+}
+
+.equipe-circle-single h3{
+    margin-top: 8px;
 }
 
 .avatar-single{
     position: relative;
+    width: 60%;
+    padding-top: 60%; /* serve para = a minha altera será igual a minha largura */
+    margin: 0 auto;
+}
+
+.avatar-single-container{
     width: 100%;
-    padding-top: 100%; /* serve para = a minha altera será igual a minha largura */
-    background-color: aqua;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: rgba(102, 102, 102,0.4);
 }
 
 
