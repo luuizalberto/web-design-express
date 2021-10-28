@@ -530,5 +530,11 @@ section.equipe{
     nav.menu-mobile{display: block;}
 
     .card-single{padding: 10px;}
+
+    .equipe-circle-single{
+        padding: 0 8px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
 
