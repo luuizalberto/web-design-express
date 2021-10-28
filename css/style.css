@@ -448,6 +448,11 @@ section.equipe{
     padding: 40px 0;
 }
 
+.equipe-circles{
+    margin-top: 20px;
+    display: flex;
+}
+
 
 
 @media screen and (max-width: 768px){
