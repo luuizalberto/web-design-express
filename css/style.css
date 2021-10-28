@@ -477,6 +477,8 @@ section.equipe{
     left: 0;
     border-radius: 50%;
     background-color: rgba(102, 102, 102,0.4);
+    background-size: cover;
+    background-position: center;
 }
 
 
