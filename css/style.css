@@ -535,6 +535,7 @@ section.sobre__final p{
 /*********** PÁGINA CONTATO ***********/
 section.contato{
     padding: 30px 0;
+    min-height: 600px;
 }
 
 section.contato .w50,
@@ -574,7 +575,34 @@ section.contato .w100{
     resize: vertical;
 }
 
+.tags-form{
+    padding-left: 50px;
+}
 
+.tags-form h2{
+    font-weight: normal;
+}
+
+.tags-form p{
+    font-weight: lighter;
+}
+
+.tags-form p.tag-contato{
+    color: white;
+    background-color: #249B8F;
+    text-align: center;
+    margin-top: 6px;
+    padding: 8px 4px;
+}
+
+/************************/
+
+
+@media screen and (max-width: 1280px){
+    section.contato{
+        min-height:0;
+    }
+}
 
 @media screen and (max-width: 768px){
     .card-single{width: 100%;}
@@ -615,6 +643,10 @@ section.contato .w100{
 
     .formulario textarea{
         margin-bottom: 0;
+    }
+
+    .tags-form{
+        padding-left: 0;
     }
 }
 
