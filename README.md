@@ -1,5 +1,5 @@
 # web-design-express
-primeiro projeto do web design
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/luuizalberto/web-design-express/blob/main/LICENSE)
 
 # Sobre o Projeto
 Utilizando uma variedade de técnicas de marcação do HTML5 e do css para posicionamentos, responsividade etc. 
