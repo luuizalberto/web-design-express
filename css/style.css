@@ -157,8 +157,10 @@ section.main-bg h2{
 section.main-bg p{
     text-align: left;
     color: #ffffff;
-    font-size: 17px;
+    font-size: 15px;
     margin-top: 15px;
+    line-height: 25px;
+    font-weight: lighter;
 }
 
 /* Experiencia do usuario - diferenciais */
