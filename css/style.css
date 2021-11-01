@@ -436,7 +436,7 @@ section.parallax{
     padding: 30px 0;
     width: 100%;
     min-height: 200px;
-    background-image: url('../images/img-parallax.jpg');
+    background-image: url('../images/pexels-chelsey-horne-4590386.jpg');
     background-size: cover;
     /* background-position: center; */
     background-attachment: fixed;
@@ -504,7 +504,7 @@ section.equipe{
 
 /* Sessão do Sobre Final */
 section.sobre__final{
-    background-color: aliceblue;
+    background-color: rgb(231, 231, 231);
     border-top: 2px solid rgb(224, 224, 224);
     padding: 20px 0;
 }
