@@ -126,7 +126,7 @@ section.main-bg{
     position: relative;
     width: 100%;
     padding: 140px 0 200px 0;
-    background-image: url('../images/bg-main.jpg');
+    background-image: url('../images/pc-com-led-azul.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -149,7 +149,7 @@ section.main-bg .overlay{
 }
 
 section.main-bg h2{
-    color: #482687;
+    color: #8e79ca;
     font-size: 40px;
     font-weight: normal;
 }
