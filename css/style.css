@@ -44,11 +44,12 @@ html, body{
 
 /* Classes do meu site */
 header{
-    padding: 8px 0;
+    padding: 15px 0;
 }
 
 .logo{
     float: left;
+    margin-top: 3px;
 }
 
 .logo h2{
@@ -61,7 +62,7 @@ header{
     text-decoration: none;
 }
 
-nav.menu-desktop li.selected{font-weight: normal; text-decoration: underline;}
+nav.menu-desktop li.selected{font-weight: normal; transform: scale(1.05);}
 
 nav.menu-desktop{
     float: right;
@@ -73,7 +74,7 @@ nav.menu-desktop ul{
 }
 
 nav.menu-desktop li{
-    margin: 0 10px;
+    margin: 0 20px;
     display: inline-block;
     font-weight: lighter;
 }
@@ -99,21 +100,20 @@ nav.menu-mobile ul{
     width: 100%;
     background-color: white;
     position: absolute;
-    top: 45px;
+    top: 58px;
     left: 0;
     z-index: 999;
     text-align: center;
 }
 
 nav.menu-mobile li{
-    padding: 8px 0;
-    border-bottom: 1px solid black;
+    padding: 15px 0;
     text-decoration: none;
     color: black;
 }
 
 nav.menu-mobile li.selected{
-    background-color: rgb(240, 240, 240);
+    box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.20);
 }
 
 nav.menu-mobile a{
